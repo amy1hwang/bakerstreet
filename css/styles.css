@@ -15,14 +15,17 @@ body{
   text-shadow:0 1px 0 #fff;
 }
 
-.left {
+
+#logo-wrapper, #nav-wrapper{
   float: left;
   /*width: 500px;*/
   width: 31%;
   margin: 60px 0 auto 30px;
 
 }
-
+#nav-wrapper{
+  clear: left;
+}
 #hlogo{
   margin: auto;
   height: 500px;
@@ -100,6 +103,7 @@ li a h2 {
   width: 60%;
   float: right;
   margin-right: 60px;
+  margin-top: -560px;
 }
 
 .right #main-header {
@@ -114,6 +118,7 @@ li a h2 {
   line-height: 40px;
   margin-top: 10px;
   float:left;
+  margin-bottom: 30px;
 }
 
 /*#thumbnail-header::before, #thumbnail-header::after {
